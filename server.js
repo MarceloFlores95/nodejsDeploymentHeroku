@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const validateToken = require('./middleware/validateToken');
 
 const {Students} = require('./models/studentModel')
-
+const {DATABASE_URL} = require('./config')
 
 const app = express('');
 const jsonParser = bodyParser.json();
