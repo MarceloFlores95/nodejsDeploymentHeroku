@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Students App</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form class="students-form">
+            <label>
+                Click the buttton to get the full list of students
+            </label>
+            <button id="submit-btn" type="submit">
+                Get students
+            </button>
+        </form>
+        <form class="add-student-form">
+            <label for="studentName">
+                Name:
+            </label>
+            <input type="text" id="studentName" />
+            <label for="studentID">
+                ID:
+            </label>
+            <input type="number" id="studentID" />
+            <button type="submit">
+                Add student
+            </button>
+        </form>
+        <section class="results">
+
+        </section>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
